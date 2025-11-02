@@ -1,0 +1,29 @@
+body {
+  scroll-behavior: smooth;
+  font-family: "Prompt", sans-serif;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid #555;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-top: 50px;
+}
+
+/* Navbar toggle (ทำงานโดยไม่ใช้ JS) */
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .collapse {
+  display: block !important;
+}
